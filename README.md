@@ -10,7 +10,7 @@ async def create_task():
 
 
 async def asend():  
-	res = await urequest.post(url,data,headers)  
+	res = await urequests.post(url,data,headers)  
 	res.close()  
     
 asyncio.run(create_task())
