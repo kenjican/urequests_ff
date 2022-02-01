@@ -15,3 +15,7 @@ async def asend():
     
 asyncio.run(create_task())
 ```
+
+## references:
+1: https://github.com/peterhinch/micropython-async/blob/master/v3/docs/TUTORIAL.md  
+2: https://forum.micropython.org/viewtopic.php?f=18&t=11895  
